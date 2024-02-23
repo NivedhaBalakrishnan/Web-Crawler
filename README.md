@@ -33,12 +33,15 @@ Webcrawler is a Python script that recursively crawls web pages to extract URLs.
     ```
     Replace `'Ancient Greece'` with your desired query.
 
-## Results
+## Input
 - **Starting URL Page:** [https://en.wikipedia.org/wiki/Ancient_Egypt](https://en.wikipedia.org/wiki/Ancient_Egypt)
+- **Maximum URLs:** 5000
+## Output
+### Number of URLs
 - **Total Links in Starting Page:** 1568
 - **Total URLs Collected:** 6230
 
-### Similar URLs for Query 'Ancient Greece'
+### Output for Query 'Ancient Greece'
 Title: Ancient Greek, URL: https://en.wikipedia.org/wiki/Ancient_Greek_language
 
 Title: ancient Greeks, URL: https://en.wikipedia.org/wiki/Ancient_Greeks
@@ -52,7 +55,7 @@ Title: Greece, URL: https://en.wikipedia.org/wiki/Greek_city-states
 
 ## Configuration
 
-You can customize the behavior of the webcrawler by modifying the parameters in the `config.ini` file. Here are some key parameters you may want to adjust:
+You can customize the behavior of the web crawler by modifying the parameters in the `config.ini` file. Here are some key parameters you may want to adjust:
 
 - `starting_url`: The URL of the initial page to start crawling from.
 - `max_urls`: The maximum number of URLs to collect.
