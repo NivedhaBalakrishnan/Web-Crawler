@@ -40,9 +40,13 @@ Webcrawler is a Python script that recursively crawls web pages to extract URLs.
 
 ### Similar URLs for Query 'Ancient Greece'
 Title: Ancient Greek, URL: https://en.wikipedia.org/wiki/Ancient_Greek_language
+
 Title: ancient Greeks, URL: https://en.wikipedia.org/wiki/Ancient_Greeks
+
 Title: Greece, URL: https://en.wikipedia.org/wiki/Economy_of_ancient_Greece#Trade
+
 Title: Greece, URL: https://en.wikipedia.org/wiki/Ancient_Greece
+
 Title: Greece, URL: https://en.wikipedia.org/wiki/Greek_city-states
 
 
